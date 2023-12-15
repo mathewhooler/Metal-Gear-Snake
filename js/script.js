@@ -255,7 +255,3 @@ function renderCountdownTimer() {
         }
     }, 1000);
 }
-
-
-
-
