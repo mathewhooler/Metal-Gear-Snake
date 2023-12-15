@@ -1,1 +1,27 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METAL GEAR SNAKE</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <h1 class="title">Metal geaR S n a k e</h1>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width=500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <button id="play-again-btn">Start</button>
+    </div>
+    <audio id="audioPlayer" src="audio/BACKGROUND_MUSIC_1.mp3"></audio>
+    <audio id="countdownTimer" src="audio/countdown.wav"></audio>
+    <audio id="ration_sound" src="audio/RATION_SOUND.mp3"></audio>
+    <audio id="losing_sound" src="audio/SNAKE_LOSS_1.mp3"></audio>
+    <audio id="winning_sound" src="audio/winner.mp3"></audio>
+    <div id="countdown" class="flex-ctr"></div>
+</body>
+
+</html>
