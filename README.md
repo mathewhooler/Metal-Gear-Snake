@@ -27,3 +27,4 @@ The game operates with the simple use of the arrow keys on your keyboard to dire
 For future version of the game I would like to implement a change in the snake movement so that the Snake will be able to pass through the game walls and appear on the opposite side of the wall it goes through.
 I also would add different difficulty level where the speed of the snake varies.
 
+Play "Metal Gear Snake": mathewhooler.github.io/
