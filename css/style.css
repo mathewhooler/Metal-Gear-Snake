@@ -1,0 +1,95 @@
+body {
+  font-family: 'Metal Gear';
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.payneful.co.uk/blogsplosion/wp-content/uploads/mgs-evil-camera.gif");
+  background-size: cover;
+}
+
+
+h1 {
+  font-family: Metal Gear;
+  color: red;
+  border: 2px solid black;
+  background-color: white;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5vw;
+  background-image: url('https://cdn2.steamgriddb.com/file/sgdb-cdn/hero_thumb/091074f44de1321aecb08696ec4bcd67.jpg');
+  background-position: left;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 3vw;
+  }
+}
+
+#gameContainer {
+  text-align: center;
+}
+
+#gameBoard {
+  border: 3px solid;
+  background-color: olivedrab;
+}
+
+#scoreText {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  font-size: 100px;
+  border: solid 2px;
+  margin: 10px;
+  background-color: grey;
+  border-radius: 50px;
+}
+
+#play-again-btn {
+  font-family: 'Metal Gear';
+  font-size: 150%;
+  color: rgb(14, 13, 13);
+  margin: 10px;
+  padding: 20px;
+  background-color: darkgray;
+  display: center;
+  justify-content: center;
+  cursor: pointer;
+  visibility: visible;
+  text-align: center;
+}
+
+.play-again-btn {
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 768px) {
+  .play-again-btn {
+    font-size: 3vw;
+  }
+}
+
+#countdown {
+  visibility: hidden;
+  height: 10vmin;
+  width: 10vmin;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  color: turquoise;
+  font: "Helvetica";
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
