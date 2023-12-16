@@ -92,7 +92,7 @@ function moveSnake() {
 
     snake.unshift(head);
     if (snake[0].x == rationX && snake[0].y == rationY) {
-        score += 1;
+        score += 5;
         speed -= 5;
         scoreText.textContent = score;
         createRation();
