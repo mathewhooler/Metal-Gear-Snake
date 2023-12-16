@@ -58,7 +58,7 @@ function nextTick() {
                 checkGameWinner();
             }
             nextTick();
-        },speed);
+        }, speed);
     }
     else {
         if (winner) {
@@ -92,7 +92,7 @@ function moveSnake() {
 
     snake.unshift(head);
     if (snake[0].x == rationX && snake[0].y == rationY) {
-        score += 5;
+        score += 1;
         speed -= 5;
         scoreText.textContent = score;
         createRation();
@@ -230,26 +230,26 @@ function stopBackgroundMusic() {
     backgroundAudio.pause();
 }
 
-function playCountdownTimer(){
+function playCountdownTimer() {
     countdownTimer.currentTime = 0;
     countdownTimer.play();
-    
+
 }
 
 function renderCountdownTimer() {
     let startingTimeValue = 3;
-    
-    
+
+
     countdownEl.style.visibility = 'visible'
     countdownEl.innerText = startingTimeValue
-    
+
     const timerId = setInterval(() => {
         startingTimeValue--;
         if (startingTimeValue === 0) {
             countdownEl.style.visibility = 'hidden';
             clearInterval(timerId)
             gameStart();
-            
+
         } else {
             countdownEl.innerText = startingTimeValue
         }
